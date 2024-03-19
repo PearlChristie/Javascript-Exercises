@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+<body>
+<h1>Javascript arithmetic operations</h1>
+<p id="p1">x+y=</p>
+<p id="p2">y-x=</p>
+<p id="p3">x*y=</p>
+<p id="p4">y/x=</p>
+<p id="p5">x%2=</p>
+
+<script>
+let x= 3, y=9;
+let z = x+y;
+
+document.getElementById("p1").innerHTML += z; 
+
+z = y - x;
+document.getElementById("p2").innerHTML += z;
+
+z = x * y;
+document.getElementById("p3").innerHTML += z;
+
+z = y / x;
+document.getElementById("p4").innerHTML += z;
+
+z = x%y;
+document.getElementById("p5").innerHTML += z;
+</script>
+</body>
+</html>

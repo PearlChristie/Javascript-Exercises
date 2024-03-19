@@ -1,0 +1,21 @@
+<!Doctype html>
+<html>
+<body>
+   <h1>Demo Throw</h1>
+
+   <p id="errorMessage"></p>
+ 
+   <script>
+      try{
+         
+      throw{
+            number: 505,
+            message: "Blocker Error"
+      };
+      }
+      catch(ex){
+        document.getElementById("errorMessage").innerHTML = ex.number + " " + ex.message;
+      }
+   </script>
+ </body>
+ </html>

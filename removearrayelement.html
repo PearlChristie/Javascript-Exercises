@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <h1>Accessing array elements</h1>
+  <p id="p1"></p>
+  <p id="p2"></p>
+  <p id="p3"></p>
+  
+    <script>
+     let cities = ["Chennai","Mumbai","Bangalore","Calcutta"];
+
+   document.getElementById("p1").innerHTML = cities;
+   
+   let removedCity = cities.pop();
+
+   document.getElementById("p2").innerHTML = cities;
+   document.getElementById("p3").innerHTML = removedCity;
+    
+     </script>
+</body>
+</html>

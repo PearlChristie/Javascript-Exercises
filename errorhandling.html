@@ -1,0 +1,17 @@
+<!Doctype html>
+<html>
+<body>
+   <h1>Demo Try/Catch Error Handling</h1>
+
+   <p id="ErrMessage"></p>
+
+   <script>
+      try{
+            var result = Sum(2,3);
+         }
+      catch(ex){
+       document.getElementById("ErrMessage").innerHTML =  ex; 
+       }
+   </script>
+ </body>
+ </html>

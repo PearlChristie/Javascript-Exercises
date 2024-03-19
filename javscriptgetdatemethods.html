@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+<body>
+<h1> Demo: Javascript Get Date Methods</h1>
+<p id ="p1"></p>
+<p id ="p2"></p>
+<p id ="p3"></p>
+<script>
+
+<!----- Returns Current Year ---->
+let dteYear = new Date();
+    
+    document.getElementById("p1").innerHTML = dteYear.getFullYear();
+
+<!----- Returns current Month ---->
+let dteMonth = new Date();
+    
+    document.getElementById("p2").innerHTML = dteMonth.getMonth();
+    
+    let today = new Date();
+    today.getDate;
+    
+let yesterday = new Date();
+    document.getElementById("p3").innerHTML = yesterday.setDate(yesterday -1);
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+<body>
+<h1> Demo: JS String Example3</h1>
+<p id = "p1"></p> 
+<p id = "p2"></p> 
+<p id = "p3"></p> 
+
+<script>
+    let str = 'Hello Champs';
+
+    for(var i=0;i<str.length;i++)
+    {
+    document.getElementById("p2").innerHTML =  document.getElementById("p2").innerHTML + str[i];
+    }
+
+    for(var ch of str)
+    {
+         document.getElementById("p3").innerHTML =  document.getElementById("p3").innerHTML + ch;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!Doctype html>
+<html>
+<body>
+   <h1>Demo Try/Catch Error Handling</h1>
+
+   <p id="ErrMessage"> Error:</p>
+   <p id="msg"></p>
+
+   <script>
+      try{
+            var result = sum(2,3);
+         }
+      catch(ex){
+       document.getElementById("ErrMessage").innerHTML +=  ex; 
+       }
+       finally{
+        document.getElementById("msg").innerHTML ="finally block executed";
+       }
+   </script>
+ </body>
+ </html>
